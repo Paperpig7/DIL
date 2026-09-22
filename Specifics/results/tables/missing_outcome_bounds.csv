@@ -1,0 +1,4 @@
+"outcome","lower_bound","upper_bound","support_low","support_high"
+"in_school_now",0.0114884546606288,0.0248420397884709,0,1
+"in_private_now",0.150208776878889,0.172194104998619,0,1
+"total_repeats",-0.0767713411257805,-0.0469309053871868,0,3

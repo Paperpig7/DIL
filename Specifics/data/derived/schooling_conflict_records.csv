@@ -1,0 +1,15 @@
+"applicant_id","cohort","selected","highest_grade","finished_g6","finished_g7","finished_g8","total_repeats","repeats_g6","ever_repeated","in_private_now","in_school_now","grade_conflict","repeats_conflict","private_school_conflict"
+100088,"B_2018",1,9,0,0,0,0,0,0,,,TRUE,FALSE,FALSE
+100203,"A_2020",1,11,0,0,0,0,0,0,,,TRUE,FALSE,FALSE
+100411,"B_2018",0,11,0,0,0,0,0,0,0,0,TRUE,FALSE,FALSE
+100466,"A_2020",0,8,0,0,0,0,0,0,1,1,TRUE,FALSE,FALSE
+100606,"B_2018",1,11,0,0,0,0,0,0,,,TRUE,FALSE,FALSE
+100704,"A_2020",1,11,0,0,0,2,2,1,0,0,TRUE,FALSE,FALSE
+100709,"B_2018",0,11,0,0,0,0,0,0,0,0,TRUE,FALSE,FALSE
+100734,"A_2022",1,6,0,0,0,0,0,0,,1,TRUE,FALSE,FALSE
+100736,"A_2020",1,11,0,0,0,0,0,0,0,0,TRUE,FALSE,FALSE
+100769,"A_2020",0,11,0,0,0,0,0,0,0,0,TRUE,FALSE,FALSE
+100823,"B_2018",1,8,0,0,0,0,0,0,0,0,TRUE,FALSE,FALSE
+100831,"A_2020",1,8,0,0,0,0,0,0,1,1,TRUE,FALSE,FALSE
+101173,"B_2018",1,10,0,0,0,0,0,0,1,1,TRUE,FALSE,FALSE
+101591,"A_2020",0,10,0,0,0,0,0,0,1,1,TRUE,FALSE,FALSE

@@ -1,0 +1,722 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 9104,
+    "sha256": "b0c090cbfa20f7e1c5446c37c5744178d271ee91ab08e15fdcc7184faba02808"
+  },
+  {
+    "path": "audit_independent/README.md",
+    "bytes": 1871,
+    "sha256": "7f9d76d8e3f943b0155c7c870e0198e87e23d18985b03413d5dfb8dc8810f0ef"
+  },
+  {
+    "path": "audit_independent/age_comparison_all_observed.csv",
+    "bytes": 57423,
+    "sha256": "66b44fbfdfe6b7ee2e85aa5ef79ba103190e8fe27f8f5cb7a3dec4845e14c50d"
+  },
+  {
+    "path": "audit_independent/age_gap_by_cohort.csv",
+    "bytes": 183,
+    "sha256": "a34204a5419e6d427175f59cf683815bf06bef2d97ff51ef5c3e6fb1cb41f140"
+  },
+  {
+    "path": "audit_independent/all_applicants_with_audit_flags.csv",
+    "bytes": 399520,
+    "sha256": "c9fcf350727a7afff962ebae242a654f2d983f2ce9debd02e0696c3256d1af20"
+  },
+  {
+    "path": "audit_independent/audit.py",
+    "bytes": 20959,
+    "sha256": "4c2e3af6c07935f82c39f206b9bacb5e7d55abd5d52a420a269e6b5ac0c742f0"
+  },
+  {
+    "path": "audit_independent/audit_report.md",
+    "bytes": 9430,
+    "sha256": "e36b51485958d9fbc6a2b563be5ceea83e6e09a1d52199d0f8a7087352502a09"
+  },
+  {
+    "path": "audit_independent/audit_summary.json",
+    "bytes": 6909,
+    "sha256": "c474f65be04574357394048b7d663c24c28db59bc0d303c62641999f10dea024"
+  },
+  {
+    "path": "audit_independent/cohort_audit.csv",
+    "bytes": 269,
+    "sha256": "752817e12fd2e475b21fb31552d1c71f7eb603fca407050b2e6b893120e8feca"
+  },
+  {
+    "path": "audit_independent/issue_summary.csv",
+    "bytes": 7903,
+    "sha256": "30199efa933ca743560d47a7e3f56b0f58bb71df69a6cc545e1b3291eeac7c50"
+  },
+  {
+    "path": "audit_independent/missingness_by_cohort_arm.csv",
+    "bytes": 8548,
+    "sha256": "7993a8f315d0336695937117aaccc237b7879a9a3b6b3356d11050606609efcc"
+  },
+  {
+    "path": "audit_independent/parent_age_clean_derivative.csv",
+    "bytes": 40165,
+    "sha256": "b8f7231d83027eb50dfba3de5dd8ef8dbb3f78afd5a2e3b9c8b2a8e7fe21bf98"
+  },
+  {
+    "path": "audit_independent/record_level_issues.csv",
+    "bytes": 178998,
+    "sha256": "7deae7e30bb8f309348f394df3ea968559a79cd7d95b0c5bf66c32b1b726ccbf"
+  },
+  {
+    "path": "audit_independent/variable_inventory.csv",
+    "bytes": 2926,
+    "sha256": "d09e8cfdc5589bd52c71dd06cdda2327ef2a590ed1ffe48f99d645bab431c3d1"
+  },
+  {
+    "path": "code/build_metadata.py",
+    "bytes": 5130,
+    "sha256": "fcc76565f8092c678bba1f75ba1e1d1c2b76cc76a122009cf839c0daf514ca55"
+  },
+  {
+    "path": "code/build_report.py",
+    "bytes": 44621,
+    "sha256": "8f17b920f578070d0695ae141cea4ee3d0af8a405ee8082f6229f5c02b61d3d2"
+  },
+  {
+    "path": "code/build_slide_report.py",
+    "bytes": 60933,
+    "sha256": "a175dca57cde3fa27eec1608e8bcb4dacdec5b739dd69a67dc012438882afed0"
+  },
+  {
+    "path": "code/run_analysis.R",
+    "bytes": 46512,
+    "sha256": "d76cb2594da34ef1cb04d4231f8d48d2924c8ba2a44123fa4d064dfab9bb6d11"
+  },
+  {
+    "path": "code/run_analysis.md",
+    "bytes": 99233,
+    "sha256": "99471ac03bedb3e40cf58caafb744db851999e48de983bd3d8118015ad2d7dc0"
+  },
+  {
+    "path": "code/slide_regressions.R",
+    "bytes": 18132,
+    "sha256": "438379bb0255109e097160a4d8bf146a364bd6e94996465a4a364dc5374efa2a"
+  },
+  {
+    "path": "code/slide_regressions.md",
+    "bytes": 41574,
+    "sha256": "86d068c0447461014075c05aca622ecc35f7a153224a79e25676d25445455e52"
+  },
+  {
+    "path": "data/derived/adjusted_analysis_data.csv",
+    "bytes": 565569,
+    "sha256": "0f7ace0e55ae3e87012b586db8771efc0a70073cc38f75adc5235bd4997475a4"
+  },
+  {
+    "path": "data/derived/age_decreased_records.csv",
+    "bytes": 758,
+    "sha256": "c5e75ed0d3409dce435b3333644e49eb0458dec7448e38f64c886136068e2a49"
+  },
+  {
+    "path": "data/derived/age_review_records.csv",
+    "bytes": 22482,
+    "sha256": "27519f10802b15966e3f2d277f3499d6661661475c9f463484327aff8ebb8936"
+  },
+  {
+    "path": "data/derived/analysis_data.csv",
+    "bytes": 422176,
+    "sha256": "cf3763c47c6135aea59adbde5252650784e068675e67d456c24a9cd6a8ff908b"
+  },
+  {
+    "path": "data/derived/issue_ledger.csv",
+    "bytes": 916456,
+    "sha256": "913a5de3ab02b3d0935ee37d5af50d2f4cd32d11884ed461e81c228116357eb1"
+  },
+  {
+    "path": "data/derived/private_school_exit_records.csv",
+    "bytes": 41181,
+    "sha256": "ae125639484cedfd79c33b434e179fd56001082a9b89948fe8992135dfaa67c5"
+  },
+  {
+    "path": "data/derived/private_school_transitions.csv",
+    "bytes": 138096,
+    "sha256": "6166c9c0f6f586854227e197779f4c4b94d84b42d1ad56953fc974a975b16816"
+  },
+  {
+    "path": "data/derived/schooling_conflict_records.csv",
+    "bytes": 977,
+    "sha256": "b4a180674c4967534e9af371ba5cab31b3ed3217ece0d0c2ed36611839d2eff8"
+  },
+  {
+    "path": "data/raw/data_dictionary.csv",
+    "bytes": 3223,
+    "sha256": "d2c02bd7665d90da00986699431aa22b06d008ce7de41a76bb6964b655ba0028"
+  },
+  {
+    "path": "data/raw/study_baseline.csv",
+    "bytes": 43243,
+    "sha256": "39f27960e817a92c811d744f01e6710225c5dec6854f7a56196b4cec75ff7f47"
+  },
+  {
+    "path": "data/raw/study_followup.csv",
+    "bytes": 114686,
+    "sha256": "b14b61f1957184d89fd626f501bcc513f214aa3fa5af8aab8e66e2dc8e582785"
+  },
+  {
+    "path": "documentation/AI_USE.md",
+    "bytes": 4268,
+    "sha256": "9da182ecf0cfd60176612911a5f7a47fbe65ae80b92c1e523d67fc5171cee590"
+  },
+  {
+    "path": "documentation/SOURCE_AND_METHODS.md",
+    "bytes": 11054,
+    "sha256": "562b6fd577d3b5871234440a869ab05e44341ac08975e501fcbd99fcb9534a31"
+  },
+  {
+    "path": "documentation/analysis_variable_dictionary.csv",
+    "bytes": 9630,
+    "sha256": "75dfd2ef5e5192e44861111fd3f38262c7ffd53346b15cb5aa975803a324871f"
+  },
+  {
+    "path": "documentation/optional_python_requirements.txt",
+    "bytes": 23,
+    "sha256": "a4e42e0f5251275e679c302325c6ac22acb0f5c7f8f2d07684fed36c523bc6e2"
+  },
+  {
+    "path": "documentation/raw_sha256.csv",
+    "bytes": 293,
+    "sha256": "6f9af2adfbc130c88cb2e12e9ce10d335b34c1061b8ac440de6b65e5417993b7"
+  },
+  {
+    "path": "documentation/transition_variable_dictionary.csv",
+    "bytes": 1240,
+    "sha256": "d64077e0bf4b862d3c8d8ae366ac372a469e0726ed6829ae51f9e413616536e3"
+  },
+  {
+    "path": "estimates_independent/README.md",
+    "bytes": 2520,
+    "sha256": "ae7a11c82d05913574efac2b74de574496262ca2354fd4c00089584319e5b0e3"
+  },
+  {
+    "path": "estimates_independent/baseline_balance.csv",
+    "bytes": 1062,
+    "sha256": "ed41a4f7d10c4967739db973c100fdb52ce6242d4656589e68de8a932911e5df"
+  },
+  {
+    "path": "estimates_independent/cohort_effects.csv",
+    "bytes": 8171,
+    "sha256": "0b9e58fe080716b569d2f8e4da4fddeced90e35b3513c6bf9d655d335a690f7c"
+  },
+  {
+    "path": "estimates_independent/independent_analysis.py",
+    "bytes": 7188,
+    "sha256": "ec85d7134e5409c32fdc4cdb68abbaf3fe47387908a9a2565f2c5b7badea813d"
+  },
+  {
+    "path": "estimates_independent/item_missingness.csv",
+    "bytes": 2785,
+    "sha256": "1513d2710097ceda048c8e195f6cb06878fa6a60399204efa34abf03a8aeb143"
+  },
+  {
+    "path": "estimates_independent/missingness_bounds.csv",
+    "bytes": 215,
+    "sha256": "ddccae70243d18486e7f0b3143038d74dde24e857c0448e5c8f0f8dbfdecc48e"
+  },
+  {
+    "path": "estimates_independent/outcome_estimates.csv",
+    "bytes": 11464,
+    "sha256": "514723d8940246d60a457ae90147e22c0da7f1b51cc72990f59e8a780a2db63e"
+  },
+  {
+    "path": "estimates_independent/root_numerical_verification.csv",
+    "bytes": 6793,
+    "sha256": "e732a5d1d0a99647083c21d204371ee11582a96d8afa167633873bf5b3f3bf68"
+  },
+  {
+    "path": "estimates_independent/root_review.md",
+    "bytes": 5055,
+    "sha256": "869023e650fcc3db19d96622762e053005771d330c3db7d05b29cb483e87bd23"
+  },
+  {
+    "path": "estimates_independent/sensitivity.csv",
+    "bytes": 2318,
+    "sha256": "6ba11c5e61a3615de49e159ff1fe40d2f17f48823a60bb3822e704146e6e9435"
+  },
+  {
+    "path": "estimates_independent/sex_effects.csv",
+    "bytes": 6716,
+    "sha256": "e47d757e9c2dc85e7c8f2413ec35679684e35bbe050e75faa139601164b1f527"
+  },
+  {
+    "path": "estimates_independent/statistical_review.md",
+    "bytes": 6308,
+    "sha256": "7de2b34645d20293a6e080fdbd28a064609ad6171c9dcfcdfd5a9c68efd4f7e2"
+  },
+  {
+    "path": "estimates_independent/verify_root.py",
+    "bytes": 4865,
+    "sha256": "733a67aeab17f43355660658c070cf2bf1e197bb1db65c87613fa09b1cebbf4f"
+  },
+  {
+    "path": "presentation/output/DIL_Assessment_Baseline.pptx",
+    "bytes": 116931,
+    "sha256": "cc8b798e6c11453dba87b90ba7b94d9b192ce81d6dc20906a953b3e923ba8882"
+  },
+  {
+    "path": "report/DIL_analysis_report.md",
+    "bytes": 39895,
+    "sha256": "6c2c53e1360fe075ffff48c6d432022d63b8622d4930cf32e05756ee9db28e08"
+  },
+  {
+    "path": "report/DIL_analysis_report.pdf",
+    "bytes": 89087,
+    "sha256": "8f55ec70ca0728327d24665e6df2bb2c7c0d6adbceefc7307c52e826366b0641"
+  },
+  {
+    "path": "report/DIL_slide_companion.md",
+    "bytes": 63354,
+    "sha256": "ae81c23235533cfd8e2de8c2c14801335aa61ec715d7c858e3d1c3b2c06e9ec0"
+  },
+  {
+    "path": "report/DIL_slide_companion.pdf",
+    "bytes": 73014,
+    "sha256": "df752f008573b852bb32811c37f99f67b306a3963d51bba5d0b88e512c269bd5"
+  },
+  {
+    "path": "results/README.md",
+    "bytes": 6156,
+    "sha256": "2789a024d0e4eb8f0bef098c92ee12ed0ff2fc198b22588376ed90eb5e2c5911"
+  },
+  {
+    "path": "results/figures/age_changes.pdf",
+    "bytes": 5252,
+    "sha256": "0dd076de4aa7efccd540c1e277d482c21c8064171241512e0915e2fe964b3560"
+  },
+  {
+    "path": "results/figures/age_changes.png",
+    "bytes": 50726,
+    "sha256": "ea63a724b0cb9d77aa49fd6c373c12d8c38c7ef26a8de94421cd74f084401938"
+  },
+  {
+    "path": "results/figures/primary_effects.pdf",
+    "bytes": 5138,
+    "sha256": "69a93c304e19b18e46ead023b2c89f957acedfaf9f8679839ed8c9e735f4de37"
+  },
+  {
+    "path": "results/figures/primary_effects.png",
+    "bytes": 62308,
+    "sha256": "016e2e3997e53715bcbd15684a012aa28436274f2f919573fb60a7a17aa72b74"
+  },
+  {
+    "path": "results/figures/revised_A2020_policy.pdf",
+    "bytes": 5408,
+    "sha256": "d1653405da495c91038a349aa8078ce5b10b83a3b75271358869eabb39e447b6"
+  },
+  {
+    "path": "results/figures/revised_A2020_policy.png",
+    "bytes": 62017,
+    "sha256": "056a826c346a206e345f2eaf95e0278d0e3b72b3b0a492ad28c64ffe3d6a85ed"
+  },
+  {
+    "path": "results/figures/sex_effects.pdf",
+    "bytes": 5700,
+    "sha256": "41b4e67449576218c21625f87646c467c24e4f9243fef6fa0cb6e64d600a0ec3"
+  },
+  {
+    "path": "results/figures/sex_effects.png",
+    "bytes": 77702,
+    "sha256": "71129107d18cf5a448161880d710b0a9a95f944d53ee6cb0ef8873d5c07e75a5"
+  },
+  {
+    "path": "results/session_info.txt",
+    "bytes": 597,
+    "sha256": "d4e37a8d79d0c98554450283d2218927a6939ae40d4a02927df370e708bc5df5"
+  },
+  {
+    "path": "results/slide_regressions/age_effects.csv",
+    "bytes": 5144,
+    "sha256": "1daa44dc8a6ad40b221356367d9f4f5c6365cd6561e3e356482bb0b2bc4cfda4"
+  },
+  {
+    "path": "results/slide_regressions/age_groups.csv",
+    "bytes": 121,
+    "sha256": "8977a8d450862658f100dd79848cdc30a9015fd4dd5245088ec2d050c5219965"
+  },
+  {
+    "path": "results/slide_regressions/age_heterogeneity.csv",
+    "bytes": 1069,
+    "sha256": "3e858674a5f5fc08b61f8d895618c9ac7e4410f8261e5ed3e8fcaa04b982c39a"
+  },
+  {
+    "path": "results/slide_regressions/audit_counts.csv",
+    "bytes": 188,
+    "sha256": "6a75ca2a0317410fa3f24c438347cf9c40c6a1291f427efab54bc671522532f3"
+  },
+  {
+    "path": "results/slide_regressions/balance_permutation.csv",
+    "bytes": 313,
+    "sha256": "74fd2e3d5d7da6e4f340344d4ad68fd5fcea3b0bbf51f76faa4ede1f63a479d0"
+  },
+  {
+    "path": "results/slide_regressions/cohort_summary.csv",
+    "bytes": 292,
+    "sha256": "f97c9dc9faa5d228975ebcaf9ad15f50853740baa7ad743b3cfa285fa2df70ac"
+  },
+  {
+    "path": "results/slide_regressions/fe_category_counts.csv",
+    "bytes": 864,
+    "sha256": "1f0bf3bee4922becf51024de24d0168838e12f2029ba3fb74d8cb1f70afd5793"
+  },
+  {
+    "path": "results/slide_regressions/fe_itt.csv",
+    "bytes": 2479,
+    "sha256": "25a6439f6372a13c3f86de63b1e708f61f8f3e70e36ed8a4123aa0322761e6d7"
+  },
+  {
+    "path": "results/slide_regressions/fe_iv.csv",
+    "bytes": 2021,
+    "sha256": "4de5b810cb68b29023814b897861520fc840512548eee6a58cd6625e8bc047a7"
+  },
+  {
+    "path": "results/slide_regressions/first_stages.csv",
+    "bytes": 826,
+    "sha256": "db470dcfe178d194dc5a6b396596da8bc883c7d822e2721db2c7b52869aae183"
+  },
+  {
+    "path": "results/slide_regressions/itt.csv",
+    "bytes": 4102,
+    "sha256": "d3ea89d9a5b028c8b078a186a02b7ed5f001a106ba9503bfed5498af62fabeb3"
+  },
+  {
+    "path": "results/slide_regressions/iv.csv",
+    "bytes": 2474,
+    "sha256": "16166de1689e28da4c652363f703bd2a7b98cfecb3cdad9ea509d7bbd665bfd9"
+  },
+  {
+    "path": "results/slide_regressions/policy_missingness.csv",
+    "bytes": 133,
+    "sha256": "3767ff209576f52482aedefe6574217946557fb0529c4a6e15a1f2ac287eec3b"
+  },
+  {
+    "path": "results/slide_regressions/policy_sensitivity.csv",
+    "bytes": 3306,
+    "sha256": "47a2a2c9204cb5016c59790fbfbb396d86a2b4018db09b67cc661ce109f09c28"
+  },
+  {
+    "path": "results/slide_regressions/record_examples.csv",
+    "bytes": 494,
+    "sha256": "b1c2dbba9e06edb522971a9350213f396fd5cd8419ae132243485c66b074fade"
+  },
+  {
+    "path": "results/slide_regressions/sex.csv",
+    "bytes": 4155,
+    "sha256": "8465d78c99ef8c5f2c02b1f3b1ea43f40d4debf526157255fade8cae43bd78a0"
+  },
+  {
+    "path": "results/slide_regressions/transitions.csv",
+    "bytes": 434,
+    "sha256": "c061f98db8f522551d7bc285d5cbe4181034300de6c134e079a9c71194d191a1"
+  },
+  {
+    "path": "results/tables/age_change_distribution.csv",
+    "bytes": 678,
+    "sha256": "d0b4f9e722343eda13a6d786af36284a18357f8c2a8a794f06f8e540f75cf888"
+  },
+  {
+    "path": "results/tables/balance_joint_test.csv",
+    "bytes": 154,
+    "sha256": "117cead26363c13f7dd2fe4ce5154b4a1e7dc702554539208a03b4091e6b0a5c"
+  },
+  {
+    "path": "results/tables/baseline_balance.csv",
+    "bytes": 1458,
+    "sha256": "b456cefe0aa8d284b1a94311463adea10d6ca07d72698893e3d4869bd2db53e3"
+  },
+  {
+    "path": "results/tables/cohort_assignment_sex_counts.csv",
+    "bytes": 278,
+    "sha256": "8f173b9e1a2ac476cb3ff405f95afd587eed098b401adc0495ac265efba95a8a"
+  },
+  {
+    "path": "results/tables/cohort_effects.csv",
+    "bytes": 2164,
+    "sha256": "27b419fd05d16227b63e30c0381ab2d4c1c24012a21cd2764c020cd41497de82"
+  },
+  {
+    "path": "results/tables/cohort_summary.csv",
+    "bytes": 456,
+    "sha256": "d72830dfa0bb7d60ae50b67a1ba7122d34d1441ac729c4ba557d27baa0d87e20"
+  },
+  {
+    "path": "results/tables/domain_checks.csv",
+    "bytes": 424,
+    "sha256": "7cb510c0c054b3572dabc6b54ff95b4f07bd35f614e2aafd11cccbbf5685d71e"
+  },
+  {
+    "path": "results/tables/followup_descriptives.csv",
+    "bytes": 930,
+    "sha256": "d222374d6a00f1edaa2e8f2a03ea6de7d0ad04f3a94ace0d0fef3ed89d35812f"
+  },
+  {
+    "path": "results/tables/issue_summary.csv",
+    "bytes": 679,
+    "sha256": "c81f83647c0b17c83c9093224459047b23ddb7f9ba05abb216e317d6783d5e16"
+  },
+  {
+    "path": "results/tables/merge_checks.csv",
+    "bytes": 177,
+    "sha256": "f857a7c5c7f7f75bde73099ca673cc120d359a1be37fb16a635d05bc12ab2d7e"
+  },
+  {
+    "path": "results/tables/missing_outcome_bounds.csv",
+    "bytes": 242,
+    "sha256": "5f280fae564f811b4d876a883c69cdf3aeba11e516848f58bc2a413816e45abc"
+  },
+  {
+    "path": "results/tables/numeric_source_checks.csv",
+    "bytes": 1044,
+    "sha256": "e6cba87587480a59ccf4f69727df841f66c20b9156ac09dd6c016115d9796de5"
+  },
+  {
+    "path": "results/tables/outcome_missingness.csv",
+    "bytes": 4238,
+    "sha256": "c70370f9c9b9222d2adfcbda397fd04aea66e9ad30b2dfd7b70d37c60c22602e"
+  },
+  {
+    "path": "results/tables/primary_effects.csv",
+    "bytes": 1016,
+    "sha256": "6fce5ae0f3a1e48138cefbaea2f4c866713e79f419b82efbd9c435086b127c81"
+  },
+  {
+    "path": "results/tables/primary_missingness_by_cohort.csv",
+    "bytes": 835,
+    "sha256": "b92c5718f26d38155122543bbb72ea1cac0bacd5c83b2f45c98401ef71e92bc3"
+  },
+  {
+    "path": "results/tables/revised_balance_joint_test.csv",
+    "bytes": 235,
+    "sha256": "72c1a04b992de13681183404695598f574b661b06bebc9e54e31230391c26614"
+  },
+  {
+    "path": "results/tables/revised_balance_permutation.csv",
+    "bytes": 777,
+    "sha256": "5b47c91b8bfe0091ec62a2de468cf3b9f3d3bffad9735afdea65eb70c2544dcd"
+  },
+  {
+    "path": "results/tables/revised_baseline_balance.csv",
+    "bytes": 4228,
+    "sha256": "f94119cfb648e612da5d60c3adeeb2817561809d21af9dcd297a819402b505a9"
+  },
+  {
+    "path": "results/tables/revised_binary_missing_bounds.csv",
+    "bytes": 710,
+    "sha256": "baffda8cfe82c048b015132d99a5ba3c30147b6be4f32a8124a75004ecb6465f"
+  },
+  {
+    "path": "results/tables/revised_first_stage.csv",
+    "bytes": 3335,
+    "sha256": "ce6cca88578a073d43bb008251b2aac7c786468c4e5d869c4f04e5052371eabd"
+  },
+  {
+    "path": "results/tables/revised_iv_effects.csv",
+    "bytes": 12883,
+    "sha256": "419fc0836e9f91f6159d4c04e46be087d153647c7d153fdf27a3c33def4bda85"
+  },
+  {
+    "path": "results/tables/revised_iv_entry_sensitivity.csv",
+    "bytes": 25644,
+    "sha256": "bba859dac885f7027d1a6f13cf98f714a49b442227d4dddcf57191b8d1e92782"
+  },
+  {
+    "path": "results/tables/revised_missingness.csv",
+    "bytes": 4620,
+    "sha256": "7466db25b24ecde9d99f3e75fe409862896d76ea503f400d1ca042061b5a5b96"
+  },
+  {
+    "path": "results/tables/revised_policy_effects.csv",
+    "bytes": 4349,
+    "sha256": "6c4b7b0689ef766926ff44b1979c5e20fe3e1929d7c0dcb16b77837e0f7c0dd7"
+  },
+  {
+    "path": "results/tables/revised_policy_sensitivity.csv",
+    "bytes": 12226,
+    "sha256": "a5d28664933aecea94ec331ab86cbcafb6583cae1e5a5041a108e65a58ca1f03"
+  },
+  {
+    "path": "results/tables/revised_schooling_effects.csv",
+    "bytes": 3871,
+    "sha256": "9a1dfd8146856af3cbbcd399e037ddcdf4630955c2b5ed778a446efb8cf95576"
+  },
+  {
+    "path": "results/tables/revised_sex_effects.csv",
+    "bytes": 4155,
+    "sha256": "8309e4cc80ad2413ceccd3e5b507bb2f6e57c779aaa4105cc695f1fc9b38fff2"
+  },
+  {
+    "path": "results/tables/revised_transition_summary.csv",
+    "bytes": 1760,
+    "sha256": "8c299148d81aa7c98f1e4b274adaaed3c36cfe537311e58b9cc972795a38de75"
+  },
+  {
+    "path": "results/tables/schema_discrepancy.csv",
+    "bytes": 243,
+    "sha256": "ada596285b3644e9475f0771472928e83abbe18185a2d5999e1b6718968b7cf4"
+  },
+  {
+    "path": "results/tables/secondary_effects.csv",
+    "bytes": 2343,
+    "sha256": "68f91050f59af0b992717379be1e9cc74eed5cb56533b9722b8d1b0456d40d65"
+  },
+  {
+    "path": "results/tables/sensitivity_effects.csv",
+    "bytes": 5717,
+    "sha256": "716bf1e4a1449e43343f22f8ab41387265e7222259ff05d5d3493c4a3696c3af"
+  },
+  {
+    "path": "results/tables/sex_effects.csv",
+    "bytes": 1984,
+    "sha256": "c3b70d5ad21cd2fcbf46f931aeec6c71cc37c45dd659ab8837c1b40a71e9bfde"
+  },
+  {
+    "path": "results/tables/sex_interactions_by_cohort.csv",
+    "bytes": 1616,
+    "sha256": "73b5d5fa97b62b8a223d0557f038762aea26e58e224e0c6d6f3c6c136e17207d"
+  },
+  {
+    "path": "results/tables/variable_profile.csv",
+    "bytes": 2049,
+    "sha256": "51a6448121c74314626624fc066a962ac926e9d4acfcab175d623398c1466622"
+  },
+  {
+    "path": "results/tables/work_conflict_sensitivity.csv",
+    "bytes": 441,
+    "sha256": "88bef1e0858ce8f9319e366aa800ccf64e086b5c092e462b99327592dc8589fe"
+  },
+  {
+    "path": "results/verification.txt",
+    "bytes": 441,
+    "sha256": "8a8d9e14a2c627a736522d9450536c1438c9207e3e85df9b44ae9f0566e59841"
+  },
+  {
+    "path": "revision_iv_qc/aid_private_by_assignment.csv",
+    "bytes": 432,
+    "sha256": "cd91e03b29bd0f2a58caa0a0ce158e6250bb204a239ff259e7e3f0176995661e"
+  },
+  {
+    "path": "revision_iv_qc/check_iv.R",
+    "bytes": 7998,
+    "sha256": "20aaa458e048249328bcfd9f7dd11392f92fd263a791516fc7c8680564f3caae"
+  },
+  {
+    "path": "revision_iv_qc/check_randomization_balance.R",
+    "bytes": 1472,
+    "sha256": "b935d0ebcb4549491082107dbf987a858206a9d0511bbef42ca70c3d29b51203"
+  },
+  {
+    "path": "revision_iv_qc/compare_production.R",
+    "bytes": 14560,
+    "sha256": "f6d2a228e6c56d6f7abeb01a95709a47451c6af6462d387ddb7bca1ac6de369a"
+  },
+  {
+    "path": "revision_iv_qc/independent_itt.csv",
+    "bytes": 4447,
+    "sha256": "ecc4569ab2ed3e07c7de6e6e743294cd280306926265f6e2ac4f5aa24a3b2634"
+  },
+  {
+    "path": "revision_iv_qc/independent_iv.csv",
+    "bytes": 9054,
+    "sha256": "354964a59cab69542cb52b4da5a62bdadbf8a0a643d188037eadf2accb601715"
+  },
+  {
+    "path": "revision_iv_qc/independent_iv_sensitivities.csv",
+    "bytes": 30487,
+    "sha256": "562c277d4c27faa3cd8e14088182abe610b67c66599c73078e0f7e17eb75270a"
+  },
+  {
+    "path": "revision_iv_qc/independent_randomization_balance.csv",
+    "bytes": 283,
+    "sha256": "d907443e5edc82d941218648790da3f2b9c62e2190bc594094674d9ba089f311"
+  },
+  {
+    "path": "revision_iv_qc/methods_review.md",
+    "bytes": 11215,
+    "sha256": "df3e0e172ddf1aa3d5e1e424994b5c696d1c560b6d102b243ade2ac93f6f7c72"
+  },
+  {
+    "path": "revision_iv_qc/production_numerical_qc.csv",
+    "bytes": 401427,
+    "sha256": "5502a7c2162bc41d65064410f335446d345c5953fe8dd8ba512bb381e3f24c58"
+  },
+  {
+    "path": "revision_iv_qc/production_qc_verdict.txt",
+    "bytes": 769,
+    "sha256": "3f51784a10832ed2ed8aaa80e26f28f7af93154f87a966cf0a5a44f0db409f36"
+  },
+  {
+    "path": "revision_iv_qc/run_log.txt",
+    "bytes": 5204,
+    "sha256": "9560377f5dbc657979ae49e4d02894f6ce789fcafc6908682453eebaf42563e6"
+  },
+  {
+    "path": "revision_iv_qc/walkthrough_qc.txt",
+    "bytes": 573,
+    "sha256": "def6704b7913beb579235d27ae248e49ecd7fd74ba5d5db98921d3ab41a6354f"
+  },
+  {
+    "path": "revision_transitions_qc/README.md",
+    "bytes": 8609,
+    "sha256": "e9e497f581346fe85ca74c98e4d43122fb572ffcab69d94136e5bbd7fd7d64ab"
+  },
+  {
+    "path": "revision_transitions_qc/all_observed_private_exit_records.csv",
+    "bytes": 64267,
+    "sha256": "e1562efb7a38b58a640eda1cb5fbf6d832aabe57a04a7401ae1be8fc462832aa"
+  },
+  {
+    "path": "revision_transitions_qc/all_records_with_history.csv",
+    "bytes": 231914,
+    "sha256": "76d3ae571bddea2c7cbb7a2b5b8b5810ce3ab2c2dd026b6952b81608299c9c67"
+  },
+  {
+    "path": "revision_transitions_qc/audit_summary.json",
+    "bytes": 540,
+    "sha256": "b3b5e538b0a9bf3ecf7d03f380da8f9f542e2b5f6414a5773b1094ff685a7ace"
+  },
+  {
+    "path": "revision_transitions_qc/g6_private_g7_nonprivate_current_private_records.csv",
+    "bytes": 4025,
+    "sha256": "65d75c97dc1af41e8dde62ff9c76e9ab3f3546c85e684938056f026319fddb49"
+  },
+  {
+    "path": "revision_transitions_qc/history_counts_by_cohort_arm.csv",
+    "bytes": 1560,
+    "sha256": "a5aabab457d4abcb32b14fdb9e87ef0c3cb907f3a44a9739aa5ea814a4d8d48b"
+  },
+  {
+    "path": "revision_transitions_qc/history_missingness_by_cohort_arm.csv",
+    "bytes": 1188,
+    "sha256": "c19b6a8a67bd592e5701898a6bfd9b79a75435f6e9a8e86fba4f2d7d6dc5fe71"
+  },
+  {
+    "path": "revision_transitions_qc/private_and_school_year_means_by_cohort_arm.csv",
+    "bytes": 2083,
+    "sha256": "e74c6dab0e4fec6aaa482502297fa706c98eecf2c04b6f7f4e3476b5e844a6e3"
+  },
+  {
+    "path": "revision_transitions_qc/school_year_counting_diagnostics.csv",
+    "bytes": 64269,
+    "sha256": "277c9ba1ebaf8e36354a15a4180871a938eb75e1540012922c5b3c2857e57e60"
+  },
+  {
+    "path": "revision_transitions_qc/selected_current_private_exit_records.csv",
+    "bytes": 25975,
+    "sha256": "6f69244c0ebc3f5a95f56b421fa9e145c31fdc1a8a2241f5388c7ec460b10d02"
+  },
+  {
+    "path": "revision_transitions_qc/transition_audit.py",
+    "bytes": 8235,
+    "sha256": "daa8cb38ebc619b80829db2e69643c1f6648725faa6c03eaca9f9d0a5f8296f9"
+  },
+  {
+    "path": "revision_transitions_qc/transition_counts_by_cohort_arm.csv",
+    "bytes": 1648,
+    "sha256": "f00fb36fdd226a4d6d4751ceceff26748e627aa237574fbca6bbc2c04fc25e31"
+  }
+]

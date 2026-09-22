@@ -1,0 +1,47 @@
+issue,n,certainty,explanation,recommended_treatment
+age_pair_missing,69,missing,At least one age needed to assess change is missing.,Do not fill ages using other-wave age minus three; retain applicant and other outcomes.
+age_decreases,11,contradiction,Follow-up age is lower than baseline age; both reports cannot be chronologically correct.,Preserve raw values; flag both reports as unresolved; keep unrelated outcomes; sensitivity may omit these applicants.
+age_unchanged,86,review,Age unchanged despite described approximately three-year follow-up.,"Flag timing discrepancy, not a proven typo; retain records and avoid adjusting for follow-up age."
+age_gap_outside_2_4,350,review,Age change outside a deliberately broad diagnostic interval around three years; exact dates unavailable.,Keep in main sample; show cohort distribution and sensitivity; do not force every age gap to three.
+grade_6_contradiction,14,contradiction,Highest grade completed conflicts with completion indicator for grade 6.,Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records.
+grade_7_contradiction,13,contradiction,Highest grade completed conflicts with completion indicator for grade 7.,Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records.
+grade_8_contradiction,13,contradiction,Highest grade completed conflicts with completion indicator for grade 8.,Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records.
+any_grade_contradiction,14,contradiction,At least one grade completion indicator disagrees with highest grade.,No automatic overwrite of one measurement with another; analyze grade robustness on records without contradictions.
+mother_not_older_than_child,4,contradiction,Reported parent age is no greater than applicant age.,Set this parent-age cell to missing only in an explicitly cleaned derivative; retain applicant and other fields.
+mother_age_gap_under_12,1,review,Reported parent-child age gap is positive but below 12 years.,Flag as implausible for review; do not assume exact correction or remove applicant.
+mother_age_gap_over_60,1,review,"Reported parent-child age gap is greater than 60 years; unusual value, not necessarily impossible.",Flag for review; preserve without an externally supported correction.
+father_not_older_than_child,1,contradiction,Reported parent age is no greater than applicant age.,Set this parent-age cell to missing only in an explicitly cleaned derivative; retain applicant and other fields.
+father_age_gap_under_12,1,review,Reported parent-child age gap is positive but below 12 years.,Flag as implausible for review; do not assume exact correction or remove applicant.
+father_age_gap_over_60,2,review,"Reported parent-child age gap is greater than 60 years; unusual value, not necessarily impossible.",Flag for review; preserve without an externally supported correction.
+nonworker_positive_hours,1,contradiction,No current paid work is reported together with positive hours worked per week.,Retain raw reports; treat as unresolved definition/reporting conflict; check secondary work results excluding this record.
+worker_zero_hours,32,review,Paid work is reported with zero weekly hours; this can occur with temporary absence or distinct reference periods.,Retain valid zero; flag for clarification. Do not replace zero hours with missing solely on this basis.
+years_in_school_above_4,176,review,Five or six completed school years since allocation appear long for a described approximately three-year follow-up.,Retain and flag timing/definition ambiguity; do not use as a primary attainment outcome without clarification.
+selected_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+male_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+has_phone_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+survey_form_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+household_visit_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+father_income_high_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+receiving_aid_now_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+started_g6_private_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+started_g7_private_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+in_private_now_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+in_school_now_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+finished_g6_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+finished_g7_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+finished_g8_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+ever_repeated_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+married_or_cohab_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+has_child_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+working_invalid_binary,0,range,Observed value outside documented binary coding.,Set invalid cell to missing in a named clean derivative.
+ses_stratum_out_of_range,0,range,Observed value outside dictionary limits.,Set invalid cell to missing in a named clean derivative.
+neighborhood_out_of_range,0,range,Observed value outside dictionary limits.,Set invalid cell to missing in a named clean derivative.
+survey_month_out_of_range,0,range,Observed value outside dictionary limits.,Set invalid cell to missing in a named clean derivative.
+repeats_g6_out_of_range,0,range,Observed value outside dictionary limits.,Set invalid cell to missing in a named clean derivative.
+total_repeats_out_of_range,0,range,Observed value outside dictionary limits.,Set invalid cell to missing in a named clean derivative.
+private_but_not_enrolled,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.
+g7_without_g6,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.
+g8_without_g7,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.
+g6_repeats_exceed_total,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.
+any_repeat_disagrees_total,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.
+hours_outside_0_168,0,contradiction,Logical or physical constraint violated.,Preserve raw data; investigate and document outcome-specific treatment.

@@ -1,0 +1,20 @@
+{
+  "all_applicants": 1618,
+  "g6_private_to_current_nonprivate_n": 434,
+  "ever_g6_g7_private_to_current_nonprivate_n": 439,
+  "selected_ever_g6_g7_private_to_current_nonprivate_n": 184,
+  "g6_private_g7_nonprivate_current_private_n": 23,
+  "current_private_but_not_enrolled_n": 0,
+  "school_years_missing_n": 8,
+  "school_years_exceed4_n": 176,
+  "school_year_count_minus_highest_grade_plus5_distribution": {
+    "-3.0": 5,
+    "-2.0": 3,
+    "-1.0": 10,
+    "0.0": 178,
+    "1.0": 1045,
+    "2.0": 311,
+    "3.0": 53,
+    "4.0": 5
+  }
+}

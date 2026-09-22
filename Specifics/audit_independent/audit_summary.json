@@ -1,0 +1,166 @@
+{
+  "source_sha256": {
+    "study_baseline.csv": "39f27960e817a92c811d744f01e6710225c5dec6854f7a56196b4cec75ff7f47",
+    "study_followup.csv": "b14b61f1957184d89fd626f501bcc513f214aa3fa5af8aab8e66e2dc8e582785",
+    "data_dictionary.csv": "d2c02bd7665d90da00986699431aa22b06d008ce7de41a76bb6964b655ba0028"
+  },
+  "integrity": {
+    "study_baseline.csv": {
+      "rows": 1618,
+      "columns": 9,
+      "missing_ids": 0,
+      "duplicate_ids": 0,
+      "duplicate_rows": 0
+    },
+    "study_followup.csv": {
+      "rows": 1618,
+      "columns": 27,
+      "missing_ids": 0,
+      "duplicate_ids": 0,
+      "duplicate_rows": 0
+    },
+    "merge": {
+      "both": 1618,
+      "left_only": 0,
+      "right_only": 0
+    }
+  },
+  "schema_mismatches": {
+    "study_baseline.csv": {
+      "dictionary_only": [],
+      "data_only": []
+    },
+    "study_followup.csv": {
+      "dictionary_only": [
+        "interview_month"
+      ],
+      "data_only": [
+        "survey_month"
+      ]
+    }
+  },
+  "total_applicants": 1618,
+  "diagnostic_common_2022_or_2023_sum": 1477,
+  "age_pairs_observed": 1549,
+  "nonzero_issues": [
+    {
+      "issue": "age_pair_missing",
+      "n": 69,
+      "certainty": "missing",
+      "explanation": "At least one age needed to assess change is missing.",
+      "recommended_treatment": "Do not fill ages using other-wave age minus three; retain applicant and other outcomes."
+    },
+    {
+      "issue": "age_decreases",
+      "n": 11,
+      "certainty": "contradiction",
+      "explanation": "Follow-up age is lower than baseline age; both reports cannot be chronologically correct.",
+      "recommended_treatment": "Preserve raw values; flag both reports as unresolved; keep unrelated outcomes; sensitivity may omit these applicants."
+    },
+    {
+      "issue": "age_unchanged",
+      "n": 86,
+      "certainty": "review",
+      "explanation": "Age unchanged despite described approximately three-year follow-up.",
+      "recommended_treatment": "Flag timing discrepancy, not a proven typo; retain records and avoid adjusting for follow-up age."
+    },
+    {
+      "issue": "age_gap_outside_2_4",
+      "n": 350,
+      "certainty": "review",
+      "explanation": "Age change outside a deliberately broad diagnostic interval around three years; exact dates unavailable.",
+      "recommended_treatment": "Keep in main sample; show cohort distribution and sensitivity; do not force every age gap to three."
+    },
+    {
+      "issue": "grade_6_contradiction",
+      "n": 14,
+      "certainty": "contradiction",
+      "explanation": "Highest grade completed conflicts with completion indicator for grade 6.",
+      "recommended_treatment": "Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records."
+    },
+    {
+      "issue": "grade_7_contradiction",
+      "n": 13,
+      "certainty": "contradiction",
+      "explanation": "Highest grade completed conflicts with completion indicator for grade 7.",
+      "recommended_treatment": "Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records."
+    },
+    {
+      "issue": "grade_8_contradiction",
+      "n": 13,
+      "certainty": "contradiction",
+      "explanation": "Highest grade completed conflicts with completion indicator for grade 8.",
+      "recommended_treatment": "Source of error cannot be identified. Preserve reported outcomes; use separate sensitivity excluding contradictory grade records."
+    },
+    {
+      "issue": "any_grade_contradiction",
+      "n": 14,
+      "certainty": "contradiction",
+      "explanation": "At least one grade completion indicator disagrees with highest grade.",
+      "recommended_treatment": "No automatic overwrite of one measurement with another; analyze grade robustness on records without contradictions."
+    },
+    {
+      "issue": "mother_not_older_than_child",
+      "n": 4,
+      "certainty": "contradiction",
+      "explanation": "Reported parent age is no greater than applicant age.",
+      "recommended_treatment": "Set this parent-age cell to missing only in an explicitly cleaned derivative; retain applicant and other fields."
+    },
+    {
+      "issue": "mother_age_gap_under_12",
+      "n": 1,
+      "certainty": "review",
+      "explanation": "Reported parent-child age gap is positive but below 12 years.",
+      "recommended_treatment": "Flag as implausible for review; do not assume exact correction or remove applicant."
+    },
+    {
+      "issue": "mother_age_gap_over_60",
+      "n": 1,
+      "certainty": "review",
+      "explanation": "Reported parent-child age gap is greater than 60 years; unusual value, not necessarily impossible.",
+      "recommended_treatment": "Flag for review; preserve without an externally supported correction."
+    },
+    {
+      "issue": "father_not_older_than_child",
+      "n": 1,
+      "certainty": "contradiction",
+      "explanation": "Reported parent age is no greater than applicant age.",
+      "recommended_treatment": "Set this parent-age cell to missing only in an explicitly cleaned derivative; retain applicant and other fields."
+    },
+    {
+      "issue": "father_age_gap_under_12",
+      "n": 1,
+      "certainty": "review",
+      "explanation": "Reported parent-child age gap is positive but below 12 years.",
+      "recommended_treatment": "Flag as implausible for review; do not assume exact correction or remove applicant."
+    },
+    {
+      "issue": "father_age_gap_over_60",
+      "n": 2,
+      "certainty": "review",
+      "explanation": "Reported parent-child age gap is greater than 60 years; unusual value, not necessarily impossible.",
+      "recommended_treatment": "Flag for review; preserve without an externally supported correction."
+    },
+    {
+      "issue": "nonworker_positive_hours",
+      "n": 1,
+      "certainty": "contradiction",
+      "explanation": "No current paid work is reported together with positive hours worked per week.",
+      "recommended_treatment": "Retain raw reports; treat as unresolved definition/reporting conflict; check secondary work results excluding this record."
+    },
+    {
+      "issue": "worker_zero_hours",
+      "n": 32,
+      "certainty": "review",
+      "explanation": "Paid work is reported with zero weekly hours; this can occur with temporary absence or distinct reference periods.",
+      "recommended_treatment": "Retain valid zero; flag for clarification. Do not replace zero hours with missing solely on this basis."
+    },
+    {
+      "issue": "years_in_school_above_4",
+      "n": 176,
+      "certainty": "review",
+      "explanation": "Five or six completed school years since allocation appear long for a described approximately three-year follow-up.",
+      "recommended_treatment": "Retain and flag timing/definition ambiguity; do not use as a primary attainment outcome without clarification."
+    }
+  ]
+}

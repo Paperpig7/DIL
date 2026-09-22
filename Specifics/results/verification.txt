@@ -1,0 +1,6 @@
+Analysis finished successfully.
+Current scope: revised_* tables, primary A2020; A2022 and B2018 separate checks.
+Original pooled tables retained as supplementary, not current primary results.
+Raw originals unchanged; direct arm means and HC2 variances checked.
+IV uses exact common samples, joint RF/FS covariance and AR-type confidence sets.
+No observed exit is labeled an identified defier; actual subsidy-recipient ATT is not identified.

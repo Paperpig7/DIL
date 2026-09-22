@@ -1,0 +1,7 @@
+R code fences: 41
+Extracted lines: 679
+Executable script lines: 679
+Exact code preservation: True
+Conceptual review: sections33–41 and README agree on A2020 primary, five policy outcomes, IV same-sample/HC2/AR and no identified recipient ATT or individual defiers.
+Final report sections6/7/8/10: conceptually sound; all displayed IV numerical results match independently verified source CSVs.
+Treatment-specific ATT, the one-sided-receipt exception, any-aid proxy limits, LATE assumptions, exclusions threats, noindividualdefiers and cohort limitations correctly stated.

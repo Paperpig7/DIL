@@ -1,0 +1,6 @@
+"cohort","outcome","lower","upper","missing_selected","missing_control","note"
+"A_2020","married_or_cohab",-0.0172972847890917,-0.00534827417642652,2,5,"Logical missing-outcome bounds; not confidence intervals"
+"A_2020","has_child",-0.0209881435501086,-0.00903913293744342,2,5,"Logical missing-outcome bounds; not confidence intervals"
+"A_2020","working",-0.0471423323566249,-0.0385949282509784,1,4,"Logical missing-outcome bounds; not confidence intervals"
+"A_2020","in_school_now",0.0164121728918573,0.0283611835045224,2,5,"Logical missing-outcome bounds; not confidence intervals"
+"A_2020","in_private_now",0.147631457918136,0.169843138502657,3,10,"Logical missing-outcome bounds; not confidence intervals"

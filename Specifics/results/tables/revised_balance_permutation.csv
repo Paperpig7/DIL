@@ -1,0 +1,4 @@
+"cohort","n","n_selected","n_control","covariates","mahalanobis_statistic","permutations","p_value","monte_carlo_se","note"
+"A_2020",1176,593,583,5,3.65452467030634,9999,0.6038,0.00489106900380684,"Conditional complete-randomization check with fixed arm counts; assumes the stated applicant lottery. Sparse-cell HC2 Wald result is secondary."
+"A_2022",277,146,131,5,8.55738824238803,9999,0.1162,0.00320464600229105,"Conditional complete-randomization check with fixed arm counts; assumes the stated applicant lottery. Sparse-cell HC2 Wald result is secondary."
+"B_2018",165,91,74,6,15.1732934066747,9999,0.0152,0.00122347701245262,"Conditional complete-randomization check with fixed arm counts; assumes the stated applicant lottery. Sparse-cell HC2 Wald result is secondary."

@@ -1,0 +1,6 @@
+Production numerical QC: 4113 checks; 4113 passed; 0 failed.
+Compared all 27 cohort/outcome policy and schooling ITTs and all 90 cohort/exposure/outcome/adjustment IV rows.
+Verified exact samples, HC2 covariance, estimates, standard errors, t confidence intervals, robust AR sets and explicit full-family Holm correction.
+Verified no-event inference suppression, school-transition count summaries and source record IDs, and logical missing-outcome bounds.
+Also checked every revised first-stage, missingness, baseline balance, baseline joint Wald diagnostic, sex-interaction and policy-sensitivity table.
+Independently reconstructed conditional-randomization balance matrices and exactly reproduced statistic, p and MCSE using documented seed20260922/B9999/sample.int.

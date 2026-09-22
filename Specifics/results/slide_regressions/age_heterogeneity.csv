@@ -1,0 +1,10 @@
+"outcome","F_statistic","numerator_df","denominator_df","n","p_value","inference_status","holm_p"
+"years_in_school",2.56886322810141,2,1110,1116,0.0770780748293131,"HC2/F test of equal age-group offer effects",0.385390374146566
+"married_or_cohab",,2,1108,1114,,"Not reported: constant outcome in at least one age group",
+"has_child",,2,1108,1114,,"Not reported: constant outcome in at least one age group",
+"working",0.742144542734631,2,1110,1116,0.47632790409491,"HC2/F test of equal age-group offer effects",1
+"hours_worked",1.31347002226788,2,1110,1116,0.269302974823424,"HC2/F test of equal age-group offer effects",1
+"in_school_now",1.32112761469336,2,1108,1114,0.267254240107929,"HC2/F test of equal age-group offer effects",1
+"in_private_now",1.18648502032528,2,1103,1109,0.305681808680006,"HC2/F test of equal age-group offer effects",1
+"highest_grade",0.0444733393415275,2,1114,1120,0.956502798856707,"HC2/F test of equal age-group offer effects",1
+"total_repeats",1.19114425150108,2,1110,1116,0.304261467415337,"HC2/F test of equal age-group offer effects",1

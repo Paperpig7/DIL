@@ -1,0 +1,16 @@
+variable,definition
+applicant_id,Unique applicant identifier; join key to study_baseline.csv
+cohort,"Municipality and application-year lottery stratum, A_2020/A_2022/B_2018."
+selected,1 = selected to receive the subsidy in the allocation lottery; 0 = not selected
+male,"1 = male, 0 = female"
+started_g6_private,1 = started grade 6 in a private school
+started_g7_private,1 = started grade 7 in a private school
+in_private_now,1 = attending a private school at the follow-up survey
+in_school_now,1 = currently enrolled in school at the follow-up survey
+highest_grade,Highest grade completed as of the follow-up survey
+years_in_school,Number of school years completed since the allocation
+receiving_aid_now,1 = using any education subsidy/scholarship in the survey year
+history_g6_g7_current,"Reported private-school indicators at G6 entry, G7 entry and followup; ? denotes missing."
+g6_private_current_nonprivate,"Observed G6 private=1 and current private=0. Descriptive history, not a counterfactual defier."
+ever_g6_g7_private_current_nonprivate,G6 or G7 private=1 and current private=0; missing original statuses remain missing.
+current_status,Current enrollment response; no inference of dropout versus school completion.

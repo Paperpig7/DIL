@@ -1,0 +1,37 @@
+File,Variable,Type,Description
+study_baseline.csv,applicant_id,integer,Unique applicant identifier; join key to study_followup.csv
+study_baseline.csv,municipality,text,Municipality where the applicant applied (A or B)
+study_baseline.csv,application_year,integer,"Year the applicant applied to the program (2018, 2020, or 2022)"
+study_baseline.csv,selected,0/1,1 = selected to receive the subsidy in the allocation lottery; 0 = not selected
+study_baseline.csv,male,0/1,"1 = male, 0 = female"
+study_baseline.csv,age_at_application,integer,Applicant age (years) at time of application
+study_baseline.csv,has_phone,0/1,1 = a telephone number was recorded on the application
+study_baseline.csv,ses_stratum,1-6,Socioeconomic stratum of residence (1 = lowest)
+study_baseline.csv,neighborhood,1-19,Residential neighborhood code (recorded for municipality A applicants)
+study_followup.csv,applicant_id,integer,Unique applicant identifier; join key to study_baseline.csv
+study_followup.csv,age_at_survey,integer,Applicant age (years) at the follow-up survey
+study_followup.csv,interview_month,1-12,Calendar month in which the follow-up interview took place
+study_followup.csv,survey_form,0/1,Administrative indicator for the interview form/version used
+study_followup.csv,household_visit,0/1,1 = interview completed via an in-person household visit
+study_followup.csv,mother_educ,numeric,Mother's completed years of schooling (survey-reported)
+study_followup.csv,father_educ,numeric,Father's completed years of schooling (survey-reported)
+study_followup.csv,mother_age,numeric,Mother's age in years (survey-reported)
+study_followup.csv,father_age,numeric,Father's age in years (survey-reported)
+study_followup.csv,father_income_high,0/1,1 = father's earnings above 0.2x the minimum wage
+study_followup.csv,receiving_aid_now,0/1,1 = using any education subsidy/scholarship in the survey year
+study_followup.csv,started_g6_private,0/1,1 = started grade 6 in a private school
+study_followup.csv,started_g7_private,0/1,1 = started grade 7 in a private school
+study_followup.csv,in_private_now,0/1,1 = attending a private school at the follow-up survey
+study_followup.csv,in_school_now,0/1,1 = currently enrolled in school at the follow-up survey
+study_followup.csv,highest_grade,numeric,Highest grade completed as of the follow-up survey
+study_followup.csv,finished_g6,0/1,1 = completed grade 6
+study_followup.csv,finished_g7,0/1,1 = completed grade 7
+study_followup.csv,finished_g8,0/1,1 = completed grade 8
+study_followup.csv,repeats_g6,0-3,Number of times grade 6 was repeated
+study_followup.csv,ever_repeated,0/1,1 = repeated any grade after the allocation
+study_followup.csv,total_repeats,0-3,Total number of grade repetitions after the allocation
+study_followup.csv,years_in_school,numeric,Number of school years completed since the allocation
+study_followup.csv,married_or_cohab,0/1,1 = married or living with a partner at the follow-up survey
+study_followup.csv,has_child,0/1,1 = has at least one child at the follow-up survey
+study_followup.csv,working,0/1,1 = doing any paid work at the follow-up survey
+study_followup.csv,hours_worked,numeric,Hours worked per week at the follow-up survey

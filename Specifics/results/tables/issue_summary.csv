@@ -1,0 +1,14 @@
+"rule","severity","applicants"
+"age_decreased","inconsistent",11
+"completion_flag_disagrees_with_highest_grade","inconsistent",14
+"not_working_but_positive_hours","inconsistent",1
+"parent_not_older_than_child","inconsistent",5
+"source_missing","missing",1136
+"age_change_outside_2_to_4_screen","review",350
+"highest_grade_below_expected_entry_history","review",1
+"parent_age_gap_below_12_or_age_above_80","review",4
+"parent_child_age_gap_above_60","review",3
+"school_years_below_grade_progress_assuming_grade5_entry","review",18
+"school_years_exceed_age_change_plus_1","review",718
+"school_years_since_allocation_above_4","review",176
+"working_but_zero_weekly_hours","review",32

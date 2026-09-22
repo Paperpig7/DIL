@@ -1,0 +1,2 @@
+"file","dictionary_variable","actual_variable","action"
+"study_followup.csv","interview_month","survey_month","Retain observed column name survey_month. Interpret as interview month; require confirmation of alias. No dates or years inferred."

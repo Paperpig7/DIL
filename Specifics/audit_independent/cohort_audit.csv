@@ -1,0 +1,4 @@
+cohort,n,selected,age_pair_observed,age_gap_mean,age_gap_median,age_gap_min,age_gap_max,neighborhood_observed
+A_2020,1176,593,1117,2.404655326768129,2.0,-5.0,5.0,897
+A_2022,277,146,271,0.6642066420664207,1.0,-4.0,4.0,0
+B_2018,165,91,161,4.490683229813665,5.0,2.0,7.0,0

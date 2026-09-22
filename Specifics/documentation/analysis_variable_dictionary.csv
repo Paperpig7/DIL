@@ -1,0 +1,95 @@
+variable,role,definition
+applicant_id,Original,Unique applicant identifier; join key to study_baseline.csv
+municipality,Original,Municipality where the applicant applied (A or B)
+application_year,Original,"Year the applicant applied to the program (2018, 2020, or 2022)"
+selected,Original,1 = selected to receive the subsidy in the allocation lottery; 0 = not selected
+male,Original,"1 = male, 0 = female"
+age_at_application,Original,Applicant age (years) at time of application
+has_phone,Original,1 = a telephone number was recorded on the application
+ses_stratum,Original,Socioeconomic stratum of residence (1 = lowest)
+neighborhood,Original,Residential neighborhood code (recorded for municipality A applicants)
+age_at_survey,Original,Applicant age (years) at the follow-up survey
+survey_month,Original,Actual name in data. Assumed alias of dictionary interview_month; no survey year supplied.
+survey_form,Original,Administrative indicator for the interview form/version used
+household_visit,Original,1 = interview completed via an in-person household visit
+mother_educ,Original,Mother's completed years of schooling (survey-reported)
+father_educ,Original,Father's completed years of schooling (survey-reported)
+mother_age,Original,Mother's age in years (survey-reported)
+father_age,Original,Father's age in years (survey-reported)
+father_income_high,Original,1 = father's earnings above 0.2x the minimum wage
+receiving_aid_now,Original,1 = using any education subsidy/scholarship in the survey year
+started_g6_private,Original,1 = started grade 6 in a private school
+started_g7_private,Original,1 = started grade 7 in a private school
+in_private_now,Original,1 = attending a private school at the follow-up survey
+in_school_now,Original,1 = currently enrolled in school at the follow-up survey
+highest_grade,Original,Highest grade completed as of the follow-up survey
+finished_g6,Original,1 = completed grade 6
+finished_g7,Original,1 = completed grade 7
+finished_g8,Original,1 = completed grade 8
+repeats_g6,Original,Number of times grade 6 was repeated
+ever_repeated,Original,1 = repeated any grade after the allocation
+total_repeats,Original,Total number of grade repetitions after the allocation
+years_in_school,Original,Number of school years completed since the allocation
+married_or_cohab,Original,1 = married or living with a partner at the follow-up survey
+has_child,Original,1 = has at least one child at the follow-up survey
+working,Original,1 = doing any paid work at the follow-up survey
+hours_worked,Original,Hours worked per week at the follow-up survey
+cohort,Derived,"Municipality and application-year lottery stratum, A_2020/A_2022/B_2018."
+selected_clean,Derived,Raw selected except documented-domain violations set missing. No violations detected in supplied data.
+male_clean,Derived,Raw male except documented-domain violations set missing. No violations detected in supplied data.
+has_phone_clean,Derived,Raw has_phone except documented-domain violations set missing. No violations detected in supplied data.
+survey_form_clean,Derived,Raw survey_form except documented-domain violations set missing. No violations detected in supplied data.
+household_visit_clean,Derived,Raw household_visit except documented-domain violations set missing. No violations detected in supplied data.
+father_income_high_clean,Derived,Raw father_income_high except documented-domain violations set missing. No violations detected in supplied data.
+receiving_aid_now_clean,Derived,Raw receiving_aid_now except documented-domain violations set missing. No violations detected in supplied data.
+started_g6_private_clean,Derived,Raw started_g6_private except documented-domain violations set missing. No violations detected in supplied data.
+started_g7_private_clean,Derived,Raw started_g7_private except documented-domain violations set missing. No violations detected in supplied data.
+in_private_now_clean,Derived,Raw in_private_now except documented-domain violations set missing. No violations detected in supplied data.
+in_school_now_clean,Derived,Raw in_school_now except documented-domain violations set missing. No violations detected in supplied data.
+finished_g6_clean,Derived,Raw finished_g6 except documented-domain violations set missing. No violations detected in supplied data.
+finished_g7_clean,Derived,Raw finished_g7 except documented-domain violations set missing. No violations detected in supplied data.
+finished_g8_clean,Derived,Raw finished_g8 except documented-domain violations set missing. No violations detected in supplied data.
+ever_repeated_clean,Derived,Raw ever_repeated except documented-domain violations set missing. No violations detected in supplied data.
+married_or_cohab_clean,Derived,Raw married_or_cohab except documented-domain violations set missing. No violations detected in supplied data.
+has_child_clean,Derived,Raw has_child except documented-domain violations set missing. No violations detected in supplied data.
+working_clean,Derived,Raw working except documented-domain violations set missing. No violations detected in supplied data.
+ses_stratum_clean,Derived,Raw ses_stratum except documented-domain violations set missing. No violations detected in supplied data.
+neighborhood_clean,Derived,Raw neighborhood except documented-domain violations set missing. No violations detected in supplied data.
+survey_month_clean,Derived,Raw survey_month except documented-domain violations set missing. No violations detected in supplied data.
+repeats_g6_clean,Derived,Raw repeats_g6 except documented-domain violations set missing. No violations detected in supplied data.
+total_repeats_clean,Derived,Raw total_repeats except documented-domain violations set missing. No violations detected in supplied data.
+age_change,Derived,Recorded followup age minus recorded baseline age. Missing if either missing.
+age_unverifiable,Derived,At least one source age is missing.
+age_decreased,Derived,Observed survey age is below baseline age.
+age_unchanged,Derived,Observed survey age equals baseline age.
+age_outside_2_to_4,Derived,"Observed age difference below2 or above4. Diagnostic tolerance, not automatic error."
+age_at_survey_clean,Derived,Raw survey age except missing for the11 declining-age pairs. No attribution of which source age is wrong.
+grade_conflict,Derived,At least one observed finished_g6/g7/g8 disagrees with highest_grade threshold.
+grade_below_5_review,Derived,"Highest grade below5, unusual under assumed grade6 entry; retain and test exclusion."
+school_years_below_grade_progress_review,Derived,years_in_school < highest_grade-5 assuming grade5 completed at entry; retain.
+finished_g6_conflict,Derived,Observed completion indicator differs from highest_grade>=specified grade.
+finished_g7_conflict,Derived,Observed completion indicator differs from highest_grade>=specified grade.
+finished_g8_conflict,Derived,Observed completion indicator differs from highest_grade>=specified grade.
+repeats_conflict,Derived,repeats_g6 exceeds total_repeats or ever_repeated disagrees with total_repeats>0.
+private_school_conflict,Derived,Private school=1 and current school enrollment=0.
+mother_child_age_gap,Derived,Raw mother age minus raw child survey age.
+mother_age_gap_over_60,Derived,Mother age minus child survey age above60; review only.
+mother_age_clean,Derived,Raw mother age except missing where no greater than observed child survey age.
+father_child_age_gap,Derived,Raw father age minus raw child survey age.
+father_age_gap_over_60,Derived,Father age minus child survey age above60; review only.
+father_age_clean,Derived,Raw father age except missing where no greater than observed child survey age.
+work_hours_conflict,Derived,working=0 with positive weekly hours.
+years_in_school_above_4,Derived,"Recorded school years above4, a review screen given approximate3y statement; retain."
+years_in_school_exceeds_age_gap_plus_1,Derived,"Reported school years exceed observed age change+1; review only, uncertain definitions."
+primary_logic_flag,Derived,"Union of grade, repetition, and private/enrollment contradictions;14 applicants in supplied data."
+age_at_application_missing,Derived,"1 if source age_at_application missing,0 otherwise."
+ses_stratum_missing,Derived,"1 if source ses_stratum missing,0 otherwise."
+neighborhood_missing,Derived,"1 if source neighborhood missing,0 otherwise."
+age_at_application_imp,Derived,"Baseline age_at_application with missing values replaced by full within-cohort mean, without outcomes or assignment."
+ses_stratum_imp,Derived,"Baseline ses_stratum with missing values replaced by full within-cohort mean, without outcomes or assignment."
+male_c,Derived,Within-full-cohort centered value of male. Used in baseline-adjusted sensitivity with assignment interactions.
+has_phone_c,Derived,Within-full-cohort centered value of has_phone. Used in baseline-adjusted sensitivity with assignment interactions.
+age_at_application_imp_c,Derived,Within-full-cohort centered value of age_at_application_imp. Used in baseline-adjusted sensitivity with assignment interactions.
+age_at_application_missing_c,Derived,Within-full-cohort centered value of age_at_application_missing. Used in baseline-adjusted sensitivity with assignment interactions.
+ses_stratum_imp_c,Derived,Within-full-cohort centered value of ses_stratum_imp. Used in baseline-adjusted sensitivity with assignment interactions.
+ses_stratum_missing_c,Derived,Within-full-cohort centered value of ses_stratum_missing. Used in baseline-adjusted sensitivity with assignment interactions.

@@ -1,0 +1,7 @@
+"applicant_id","cohort","selected","age_at_application","age_at_survey","highest_grade","finished_g6","finished_g7","finished_g8","working","hours_worked","started_g6_private","started_g7_private","in_private_now","in_school_now"
+100368,"A_2020",0,15,10,9,1,1,1,0,0,0,1,1,1
+100044,"A_2022",0,15,13,6,1,0,0,1,20,1,1,1,1
+100203,"A_2020",1,15,18,11,0,0,0,0,0,1,1,,
+100767,"A_2020",0,12,15,8,1,1,1,0,4,1,1,1,1
+100031,"A_2020",1,12,15,7,1,1,0,0,0,1,1,0,1
+100062,"A_2020",1,12,15,8,1,1,1,0,0,1,0,1,1

@@ -1,0 +1,4 @@
+"cohort","n","selected","control","age_pairs","mean_age_change","median_age_change","age_decreased","age_outside_2_to_4","age_missing"
+"A_2020",1176,593,583,1117,2.40465532676813,2,1,16,59
+"A_2022",277,146,131,271,0.664206642066421,1,10,252,6
+"B_2018",165,91,74,161,4.49068322981366,5,0,82,4
